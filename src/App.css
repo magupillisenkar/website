@@ -32,7 +32,109 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Home css */
+
+.sidebar {
+  color: #ffffff;
+  padding: 5px;
+  height: 730px;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+}
+.sideshow{
+  padding: "0px" !important;
+}
+
+#sidebar-menu {
+  width: 15%;
+}
+#sidebar-menu1 {
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+li {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffffc3;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+li.active {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #f0f8ff4f;
+  padding: 10px;
+  border-radius: 5px;
+}
+li:hover {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff !important;
+  background: #f0f8ff4f;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.icon {
+  font-size: 45px;
+  margin-top: 24px;
+}
+.iconfont{
+  font-size: 17px;
+}
+
+.apexcharts-menu-icon {
+  display: none !important;
+}
+
+.menu-container {
+  position: fixed;
+  bottom: 10px;
+  width: 15%;
+}
+.menu-container1 {
+  position: fixed;
+  bottom: 10px;
+  width: 95%;
+}
+
+.input-group-text {
+  font-size: 20px !important;
+}
+
+
+th {
+  color: #b4b6bf;
+  font-size: 14px;
+}
+
+.iconshow{
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .sideshow {
+    display: none !important;
+  }
+  .iconshow{
+    display: block !important;
   }
 }
