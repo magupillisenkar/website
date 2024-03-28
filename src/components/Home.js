@@ -77,7 +77,7 @@ function Home() {
         <div style={{  background:"#040440"}} className='col-md-2'>
           <Sidebar />
         </div>
-        <div style={{ background: "#f5f6f8", padding: "0px" }} className='col-md-10'>
+        <div style={{ background: "#f5f6f8", padding: "0px" }} className='col-md-10'> 
           <div className='container-fluid p-5'>
             <div className='row mb-3'>
               <div className='col-6'>
